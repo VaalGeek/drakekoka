@@ -17,8 +17,8 @@ export default defineNuxtConfig({
     registerType: 'autoUpdate',
     includeAssets: ['icons/*.png', 'favicon.ico'], // Include static assets
     manifest: {
-      name: 'FJL Wells Primary School App',
-      short_name: 'FJL Wells',
+      name: 'Drake Koka Primary School App',
+      short_name: 'Drake Koka',
       description: 'School App',
       theme_color: '#ffffff',
       background_color: '#ffffff',
@@ -73,6 +73,9 @@ export default defineNuxtConfig({
       supabaseUrl: process.env.SUPABASE_URL,
       supabaseKey: process.env.SUPABASE_KEY,
       showMenu: process.env.SHOW_MENU,
+      address:process.env.ADDRESS,
+      email:process.env.EMAIL,
+      tel:process.env.TEL
       
     }
   },
